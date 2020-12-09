@@ -1,0 +1,44 @@
+.aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #553D67;
+    min-height: 100vh;
+    min-width: 400px;
+    max-width: 400px;
+    margin-left: 0;
+    align-items: center;
+}
+
+.perfil{
+
+    border-radius: 20px;
+    width: 250px;
+    margin-top: 50px;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+    margin-bottom: 100px;
+}
+
+.info_perfil{
+
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8em;
+    text-align: justify;
+    font-family: 'Andika New Basic', sans-serif;
+    color: #000;
+
+}
+.info_perfil a{
+
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+.info_perfil a:visited, a:link, a:active{
+
+    color: #F64C72;;
+}

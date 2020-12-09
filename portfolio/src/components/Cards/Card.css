@@ -1,0 +1,11 @@
+.card{
+
+    display: flexbox;
+    flex-direction: column;
+    min-width: 50%;
+    background-color: brown;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+
+}
