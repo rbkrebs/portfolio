@@ -7,7 +7,7 @@ import perfil from '../../assets/perfil.jpg';
 export default function Aside(){
 
     return(<div className="aside">
-            <img className= "perfil" src={perfil}/>
+            <img className= "perfil" alt="foto perfil" src={perfil}/>
             <div  className="info_perfil">
             <p>
                 Hi, I'm Romulo Krebs, 
