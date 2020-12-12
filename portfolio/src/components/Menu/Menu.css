@@ -16,19 +16,12 @@
     list-style-type:none;
      
     padding: 0; 
-    
-    
-
-    
-
-   
   
     
 }
 
-li {
-
-    
+.menu__item {
+    color: white;    
     text-decoration: none;
     margin-bottom: 20px;
     padding: 10px 0;  
@@ -38,7 +31,7 @@ li {
    
 }
 
-li:hover{
+.menu__item:hover{
     box-shadow: 2px 5px 10px 5px rgba(228, 224, 224, 0.2);
 
     

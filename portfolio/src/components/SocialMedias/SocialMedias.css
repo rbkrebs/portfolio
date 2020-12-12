@@ -1,0 +1,17 @@
+.social_medias{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    font-size: 40px;
+    margin-left: 150px;
+    
+}
+
+.social_medias a{
+
+    text-decoration: none;
+    margin-right: 25px;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.perfil{
+
+    border-radius: 20px;
+    width: 250px;
+    margin-top: 50px;
+    border-color: brown;
+    border-width: 5px;
+    border-style: solid;
+   
+}
+
+.info_perfil{
+
+    margin:20px 50px 20px 20px; 
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-family: 'Andika New Basic', sans-serif;
+    color: #fff;
+    padding: 0;
+    
+
+}
+.info_perfil a{
+
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+
+.info_perfil a:visited, a:link, a:active{
+
+    color: #F64C72;;
+}

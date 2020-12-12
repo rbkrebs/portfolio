@@ -1,6 +1,6 @@
 import React from 'react';
 import './Aside.css';
-import perfil from '../../assets/perfil.jpg';
+
 import Menu from '../Menu';
 
 
