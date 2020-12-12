@@ -1,7 +1,8 @@
 import React from 'react';
-import Aside from '../Aside';
-import Card from '../Cards';
-import SocialMedias from '../SocialMedias';
+import Aside from '../Aside/Aside';
+import Card from '../Cards/Card';
+import SocialMedia from '../SocialMedias/SocialMedias'
+
 import './Container.css';
 
 
@@ -9,8 +10,9 @@ export default function Container(){
 
     return (<div className= "content">
 
-        <Aside/>
-        <SocialMedias/>
-        <Card/>
+      <Aside/>
+      <Card/>
+      <div>&lt;rbkrebs!&gt;</div>
+      <SocialMedia/>
     </div>)
 }

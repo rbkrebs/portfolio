@@ -1,12 +1,12 @@
 .aside{
     display: flex;
     flex-direction: column;
-    background-color: #553D67;
+    background-image: linear-gradient(to top right, #b48ed1 10%, #282c34 60%);    
     min-height: 100vh;
     min-width: 400px;
     max-width: 400px;
     margin-left: 0;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 .perfil{
@@ -42,3 +42,4 @@
 
     color: #F64C72;;
 }
+
