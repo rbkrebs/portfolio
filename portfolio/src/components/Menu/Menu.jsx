@@ -13,7 +13,7 @@ export default function Menu(){
               <Link to="/about" className="menu__item">
                  <li> About </li>
               </Link>
-              <Link className="menu__item">
+              <Link to="/projects" className="menu__item">
               <li> Projects </li>
             </Link>
           </ul>
