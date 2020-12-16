@@ -3,11 +3,32 @@
     flex-direction: column;
     height: 100%;
     background-image: linear-gradient(to top right, #b48ed1 5%, #282c34 50%);  
-    background-color: crimson;
-    min-width: 400px;
-    max-width: 400px;
+    width: 300px;
+   
     margin-left: 0;
     justify-content: flex-end;
+}
+
+@media(max-width: 480px){
+
+    .aside{
+        
+        width: 100%;
+        height: 100px;
+        background-image: none;
+        
+    }
+    
+
+}
+
+@media(max-width: 768px){
+
+    .aside{
+        width: 100%;
+    }
+    
+
 }
 
 

@@ -1,0 +1,20 @@
+{
+    "projects": [
+        {
+            "project_name": "nome do projeto",
+            "description": "description",
+            "requirements": ["requirements"],
+            "technologies": [
+                "Java",
+                "Spring Boot",
+                "HTML",
+                "Materialize",
+                "CSS",
+                "Javascript"
+            ],
+            "picture": "picture",
+            "github_url": "github_url",
+            "deploy_url": "deploy_url"
+        }
+    ]
+}

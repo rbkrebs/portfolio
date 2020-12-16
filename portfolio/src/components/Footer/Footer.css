@@ -3,9 +3,19 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    bottom: 0;    
+      
     width: 100%;
     height: 100px;
     background-image: linear-gradient(to bottom left,  #282c34 30%, #b48ed1 40%);
     
+}
+
+@media(max-width: 480px){
+
+    footer{
+        background-image: none;
+        background-color: #b48ed1;
+    }
+    
+
 }
