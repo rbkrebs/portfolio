@@ -1,7 +1,6 @@
 import React from 'react';
-import Aside from '../Aside/Aside';
 import Card from '../Cards/Card';
-import Footer from '../Footer';
+import Aside from '../Aside';
 import Section from '../Section';
 import SocialMedia from '../SocialMedias/SocialMedias'
 
@@ -12,7 +11,8 @@ export default function Container(){
 
     return (<div className= "content">
 
-      <Aside/>      
-      <Section/>     
+      <Aside/>
+      <Section/> 
+       
     </div>)
 }

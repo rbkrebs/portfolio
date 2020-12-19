@@ -1,3 +1,10 @@
+.about{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
 .perfil{
 
     border-radius: 20px;

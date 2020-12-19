@@ -7,7 +7,7 @@ import './About.css';
 export default function About(){
 
 
-    return(<div>
+    return(<div className="about">
 
             <img className= "perfil" alt="foto perfil" src={perfil}/>
                         <div  className="info_perfil">

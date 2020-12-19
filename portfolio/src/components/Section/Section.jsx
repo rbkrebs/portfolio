@@ -12,12 +12,14 @@ export default function Section(){
 
     return (
 
+        <div className="section">
         
         <Switch>
                 <Route exact path="/" component={Brand} />
                 <Route path="/about" component={About} />
                 <Route path="/projects" component={Projects} />
         </Switch>
+        </div>
         
        
     )
