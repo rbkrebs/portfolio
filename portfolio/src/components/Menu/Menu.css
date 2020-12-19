@@ -41,6 +41,11 @@
     
 }
 
+.menu__item:active{
+
+    color: #F64C72;    
+}
+
 @media(max-width: 480px){
 
     .menu ul{

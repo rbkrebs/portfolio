@@ -1,11 +1,12 @@
 .card{
 
-    display: flexbox;
-    flex-direction: column;
-    min-width: 50%;
-    background-color: brown;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;   
+    background-color: rgb(136, 128, 128);
+    margin: 100px;
     height: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 1px -1px rgba(228, 224, 224, 0.2);
+
 
 }
