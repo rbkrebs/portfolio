@@ -1,37 +1,30 @@
 {
     "projects": [
         {
-            "project_name": "nome do projeto",
-            "description": "description",
-            "requirements": ["requirements"],
-            "technologies": [
-                "Java",
-                "Spring Boot",
-                "HTML",
-                "Materialize",
-                "CSS",
-                "Javascript"
+            "project_name": "Undergraduation Manager System",
+            "description": "The aim of this project is to make easier the way subjects are distributed between professors taking in account their skills, availability and how long they have been teaching at current university.",
+            "requirements": [
+                "Authorization",
+                "Authentication",
+                "Responsive",
+                "CI/CD",
+                "Unit Tests",
+                "Integration Tests"
+            
             ],
-            "picture": "picture",
-            "github_url": "github_url",
-            "deploy_url": "deploy_url"
-        },
-
-        {
-            "project_name": "nome do projeto",
-            "description": "description",
-            "requirements": ["requirements"],
             "technologies": [
-                "Java",
-                "Spring Boot",
-                "HTML",
-                "Materialize",
-                "CSS",
-                "Javascript"
+                "Spring Boot 2",
+                "Thymeleaf",
+                "Hibernate",
+                "JPA",
+                "Heroku",
+                "CircleCI",
+                "Github",
+                "Selenium"
             ],
-            "picture": "picture",
-            "github_url": "github_url",
-            "deploy_url": "deploy_url"
+            "picture": "",
+            "github_url": "https://github.com/rbkrebs/curso-sistema",
+            "deploy_url": "https://curso-sistema.herokuapp.com/"
         }
     ]
 }

@@ -3,14 +3,18 @@ import './Card.css';
 
 export default function Card(props) {
 
-    console.log(props.data)
-
+   
     return (<div className="card">
-        <p>{props.data.project_name}</p>
+        <h1>{props.data.project_name}</h1>
+        <div className="card__description">
         <p>{props.data.description}</p>
-        <p>{props.data.github_url}</p>
-        <p>{props.data.deploy_url}</p>
-        <ul>
+        </div>
+        <div className="card__urls">
+        <a href={props.data.github_url} target="_blank">{props.data.github_url}</a>
+        <a href={props.data.deploy_url} target="_blank">{props.data.deploy_url}</a>
+        </div>
+        <h3>Requirements</h3>
+        <ul className="card__list">
             {props.data.requirements.map(
                 (requirement, index) => {
 
@@ -20,14 +24,12 @@ export default function Card(props) {
 
             )}
         </ul>
-        <ul>
+        <h3>Technologies</h3>
+        <ul className="card__list">
             {props.data.technologies.map(
                 (technology, index) => {
-
                     return <li>{technology}</li>
-
                 }
-
             )}
         </ul>
         <p>{props.data.picture}</p>

@@ -17,7 +17,7 @@ export default function About(){
                             target="_blanck"> Chemical Engineering </a> 
                             and Laboratorian Technician at 
                             <a href= "https://www.gov.br/agricultura/pt-br/assuntos/laboratorios/lfda" 
-                            target='_blank'> Government Lab. </a> 
+                            target='_blank'> Laboratory of Animal and Plant Health and Inspection. </a> 
                             Since 2015 I've been studying and creating my own 
                             <a href="https://github.com/rbkrebs" target="_blanck"> projects </a> and helping
                             my supervisors taking better decisions about new software features or everything 

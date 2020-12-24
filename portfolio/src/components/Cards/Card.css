@@ -4,9 +4,59 @@
     flex-direction: column;   
     background-color: rgb(136, 128, 128);
     margin: 100px;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
     box-shadow: 10px 10px 1px -1px rgba(228, 224, 224, 0.2);
+    padding: 20px;
 
+
+}
+
+.card__description{
+
+    text-align: justify;
+    padding: 30px;
+    line-height: 1.5;
+    font-weight: 400;
+
+
+}
+
+.card__urls{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    line-height: 2;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    overflow-wrap: break-word;
+    
+
+}
+.card__urls a{
+
+    
+    color: white;
+}
+
+.card__list{
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.card__list li{
+
+    padding: 10px;
+    margin:0px 0px 10px 10px;
+    border: solid rgba(228, 224, 224, 0.2);
+    border-radius: 10px;
+    
 
 }
