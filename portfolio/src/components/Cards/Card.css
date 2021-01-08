@@ -60,3 +60,12 @@
     
 
 }
+
+@media(max-width: 834px){
+
+    .card{
+
+        margin: 40px 20px;
+    }
+
+}
