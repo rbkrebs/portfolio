@@ -4,7 +4,7 @@
     flex-direction: column;   
     background-color: rgb(136, 128, 128);
     margin-bottom: 100px;
-    height: auto;
+    align-items: center;
     border-radius: 10px;
     box-shadow: 10px 10px 1px -1px rgba(228, 224, 224, 0.2);
     padding: 20px;
@@ -19,6 +19,7 @@
     padding: 30px;
     line-height: 1.5;
     font-weight: 400;
+   
 
 
 }
@@ -29,14 +30,14 @@
     align-items: flex-start;    
     line-height: 2;
     font-weight: 400;
-    margin-bottom: 20px;
-    margin-left: 30px;
+    margin-bottom: 20px;    
     overflow-wrap: break-word;
+   
+
     
 
 }
 .card__urls a{
-
     
     color: white;
 }
@@ -46,8 +47,9 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;   
+    padding: 0;
     
 
 }
@@ -55,7 +57,7 @@
 .card__list li{
 
     padding: 10px;
-    margin:0px 0px 10px 10px;
+    margin: 10px;
     border: solid rgba(228, 224, 224, 0.2);
     border-radius: 10px;
     
@@ -67,8 +69,7 @@
     .card{
 
         margin: 40px 20px;
-        width: auto;
-       
+        width: auto;       
         font-size: 0.8rem;
         
         
