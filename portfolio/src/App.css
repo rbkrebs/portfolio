@@ -1,12 +1,19 @@
+:root{
+  --aside-width:300px;
+  --footer-height:100px;
+  --blue-dark: #282c34;
+}
+
 .App {
 
   text-align: center;
-  background-color: #282c34;
+  background-color: var(--blue-dark);
   min-height: 100vh;
   display: flex;
   flex-direction: column; 
   color: white;
   margin: 0;
+
 }
 
 

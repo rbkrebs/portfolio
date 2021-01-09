@@ -4,9 +4,10 @@ footer{
     flex-direction: row;
     justify-content: flex-start;      
     width: 100%;
-    height: 100px;
+    height: var(--footer-height);
     background-image: linear-gradient(to bottom left,  #282c34 30%, #b48ed1 40%);
-    
+    position:fixed;
+    bottom:0;
     
 }
 

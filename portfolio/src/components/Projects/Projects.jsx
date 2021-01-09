@@ -11,7 +11,7 @@ export default function Projects() {
 
     return (
         <div className="project">
-            <Carousel>
+           
                 {data.projects.map(
 
                     (project, index) => {
@@ -20,10 +20,7 @@ export default function Projects() {
 
                     }
                 )
-
-                }
-            </Carousel>
-
+            }           
         </div>
     )
 }
