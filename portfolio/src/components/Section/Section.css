@@ -1,11 +1,13 @@
 .section{
 
-    display: flex;
-    flex-direction: column;
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
     width: 100%;    
-    min-height: 100%;
-    position: relative;
     margin-left: var(--aside-width);
+    
+    
+    
     
 }
 
@@ -13,7 +15,9 @@
 @media(max-width: 834px){
 
     .section{
+        margin-top: var(--menu-responsive-heigth);
         margin-left: 0; 
+        width: auto;
     }
     
 

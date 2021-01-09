@@ -2,6 +2,7 @@
   --aside-width:300px;
   --footer-height:100px;
   --blue-dark: #282c34;
+  --menu-responsive-heigth: 100px;
 }
 
 .App {
@@ -10,7 +11,7 @@
   background-color: var(--blue-dark);
   min-height: 100vh;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;   
   color: white;
   margin: 0;
 

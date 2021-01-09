@@ -67,6 +67,11 @@
     .card{
 
         margin: 40px 20px;
+        width: auto;
+       
+        font-size: 0.8rem;
+        
+        
         
     }
 

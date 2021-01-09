@@ -1,17 +1,21 @@
 .content{
-    display: flex;
-    flex-direction: row;
+    display: flex;  
+    align-items: center;    
     width: 100%;
-    margin-bottom: var(--footer-height);
+    
+    min-height: 100vh;
+   
+   
   
 
 }
 
 @media(max-width: 834px){
 
-    .content{
-        flex-direction: column;  
-    }
     
+   .content{
+       justify-content: center;
+       margin-bottom: var(--footer-height);
+   }
 
 }

@@ -15,3 +15,21 @@
     margin-right: 25px;
     color: white;
 }
+
+
+@media(max-width: 834px){
+
+    .social_medias{
+            
+        margin:auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+      
+    }
+    .social_medias a{      
+       
+       margin: 0;
+        
+    }
+}
