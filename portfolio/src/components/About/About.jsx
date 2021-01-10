@@ -24,7 +24,7 @@ export default function About(){
                             about IT needs.
                             </p>
                             <p>
-                                My short period working from home in 2020 showed me how many benefits I can earn
+                                My short period working from home in 2020 showed me how many benefits I can have
                                 taking in account life quality. So, this is why I am building and showing you my
                                 portfolio. I hope you enjoy!!!
                             </p>
